@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* CSS Document */
+/*Colour pallette
+fear of rejection
+341139
+HEX
+52,17,57 RGB
+
+into insurmountable
+3C3251
+HEX
+60,50,81
+RGB
+
+as breath swells
+359668
+HEX
+53,150,104
+RGB
+
+and trembling of hands
+A8D46F
+HEX
+168,212,111
+RGB
+
+a chatter of teeth
+FFED90
+HEX
+255,237,144
+RGB
+
+inside this moment found on colourlovers.com*/
+body {
+	background:url("../img/notebook.png");
+}
+
+
+img {
+	width:25%;
+	
+}
+
+
+h1, h3 {
+	font-family: 'IM Fell Great Primer', serif;
+	}
+	
+ p {
+   font-family: 'Noto Sans', sans-serif;
+ }
+
+li {
+  background: ;
+  float:left;  
+  height: 50px;
+  line-height: 50px;
+  list-style: none;
+	margin: 0 10px 0 10px;
+  padding: 0 0px 0 0px;
+  text-align: center;
+  width: 200px;
+}
+
+a {
+  background: ;
+  display: block;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a:hover {
+  background: rgba(52,17,57,.9);
+  border-radius:50%;
+}
+
+
+#arrow {
+	width: 75%;
+}
+?
+/*gallery*/

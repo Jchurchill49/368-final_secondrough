@@ -1,0 +1,180 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*Colour pallette
+fear of rejection
+341139
+HEX
+52,17,57 RGB
+
+into insurmountable
+3C3251
+HEX
+60,50,81
+RGB
+
+as breath swells
+359668
+HEX
+53,150,104
+RGB
+
+and trembling of hands
+A8D46F
+HEX
+168,212,111
+RGB
+
+a chatter of teeth
+FFED90
+HEX
+255,237,144
+RGB
+
+inside this moment found on colourlovers.com*/
+
+/*Font*/
+
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('quicksand-regular-webfont.eot');
+    src: url('quicksand-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('quicksand-regular-webfont.woff') format('woff'),
+         url('quicksand-regular-webfont.ttf') format('truetype'),
+         url('quicksand-regular-webfont.svg#quicksandregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quicksandbold';
+    src: url('quicksand-bold-webfont.eot');
+    src: url('quicksand-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('quicksand-bold-webfont.woff') format('woff'),
+         url('quicksand-bold-webfont.ttf') format('truetype'),
+         url('quicksand-bold-webfont.svg#quicksandbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quicksandlight';
+    src: url('quicksand-light-webfont.eot');
+    src: url('quicksand-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('quicksand-light-webfont.woff') format('woff'),
+         url('quicksand-light-webfont.ttf') format('truetype'),
+         url('quicksand-light-webfont.svg#quicksandlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quicksanditalic';
+    src: url('quicksand-italic-webfont.eot');
+    src: url('quicksand-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('quicksand-italic-webfont.woff') format('woff'),
+         url('quicksand-italic-webfont.ttf') format('truetype'),
+         url('quicksand-italic-webfont.svg#quicksanditalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quicksandbold_italic';
+    src: url('quicksand-bolditalic-webfont.eot');
+    src: url('quicksand-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('quicksand-bolditalic-webfont.woff') format('woff'),
+         url('quicksand-bolditalic-webfont.ttf') format('truetype'),
+         url('quicksand-bolditalic-webfont.svg#quicksandbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*end of fonts*/
+
+
+#main {
+	background-color: rgba(60,50,81,.8);
+	}
+
+img{
+	width:50%;
+	}
+
+
+#top {
+	float:;
+	}
+
+img {
+	margin: 10px 10px;
+	border:black;
+	padding: 30px 30px;
+	}
+
+h1, h3 {
+	font-family: 'Quicksand', sans-serif;
+	}
+h1 {
+	font-family: 'Quicksand', sans-serif;
+	font-size:3em;
+	padding: 20px 20px 20px 20px;
+	background: none;
+	display:block;
+	text-align:center;
+	}
+ p {
+   font-family: 'Noto Sans', sans-serif;
+ }
+
+li {
+  background: ;
+  float:right;  
+  height: 50px;
+  line-height: 50px;
+  list-style: none;
+	margin: 0 10px 0 10px;
+  padding: 0 10px 0 0;
+  text-align: center;
+  width: 150px;
+}
+
+a {
+  background: ;
+  display: block;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a:hover {
+  background: rgba(52,17,57,.9);
+  border-radius:50%;
+}
+
+blockquote {
+	float:left;
+	font-style:italic;
+}
+
+body{
+	background: url(../img/tree_bark.png) ;
+}
+
+.foo:hover {
+	
+}

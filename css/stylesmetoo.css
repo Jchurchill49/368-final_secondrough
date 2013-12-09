@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*font-family: 'Quicksand', sans-serif;*/
+
+body{
+  background:rgba(231,227,215,1);
+  -webkit-background-attachment:fixed;
+  -moz-background-attachment:fixed;
+  background-attachment:fixed;
+  height:80%;
+  width:80%;
+ 
+}
+
+nav{
+
+	background:white;
+	
+}
+
+li {
+  background: ;
+  float:left;  
+  height: 50px;
+  line-height: 50px;
+  list-style: none;
+  margin: 0 10px 0 10px;
+  padding: 0 10px 0 0;
+  text-align: center;
+  width: 150px;
+}
+
+.container{
+	width:90%;
+	
+	
+}
+
+h1{
+	font-family: 'Quicksand', sans-serif;
+	text-align:center;
+	color:rgba(16,19,38,1);
+	font-family: 'Quicksand', sans-serif;
+}
+
+article{
+	float:left;
+}
+p{
+	font-family: 'Quicksand', sans-serif;
+}
+
+a {
+  background: ;
+  display: block;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a:hover {
+  background: rgba(52,17,57,.9);
+  border-radius:50%;
+}
+
+#scroll{
+	background-color:rgba(24,50,77,.9);
+	width:400px;
+	height:400px;
+	overflow:scroll;
+	padding: 50px;
+}
+
+
+img{
+	background:blue;
+	width:400px;
+	height:600px;
+}
+
+
+
+img+p{
+	background:rgba(134,213,244, .5);
+	width:100px;
+	height:100px;
+	position: relative;
+	bottom:600px;
+	left:350px;
+	
+	
+	
+}
