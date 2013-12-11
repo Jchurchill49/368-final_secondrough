@@ -4,7 +4,7 @@
 /*font-family: 'Quicksand', sans-serif;*/
 
 body{
-  background:rgba(231,227,215,1);
+  background:url(../img/tree_bark.png);
   -webkit-background-attachment:fixed;
   -moz-background-attachment:fixed;
   background-attachment:fixed;
@@ -14,13 +14,10 @@ body{
 }
 
 nav{
-
-	background:white;
-	
+	background:rgba(41,104,83,.8);
 }
 
 li {
-  background: ;
   float:left;  
   height: 50px;
   line-height: 50px;
@@ -37,18 +34,27 @@ li {
 	
 }
 
-h1{
+header{
+	text-align:center;
+	clear:both;
+}
+
+h1, h2{
+	
 	font-family: 'Quicksand', sans-serif;
 	text-align:center;
-	color:rgba(16,19,38,1);
-	font-family: 'Quicksand', sans-serif;
+	color:rgba(41,104,83,1);
+	
+	
 }
 
 article{
 	float:left;
+	clear:left;
 }
 p{
 	font-family: 'Quicksand', sans-serif;
+	font-size:1 em;
 }
 
 a {
@@ -65,11 +71,13 @@ a:hover {
 }
 
 #scroll{
-	background-color:rgba(24,50,77,.9);
+	float:right;
+	background-color:black;
 	width:400px;
 	height:400px;
 	overflow:scroll;
 	padding: 50px;
+	
 }
 
 
@@ -81,6 +89,8 @@ img{
 
 
 
+
+
 img+p{
 	background:rgba(134,213,244, .5);
 	width:100px;
@@ -89,6 +99,86 @@ img+p{
 	bottom:600px;
 	left:350px;
 	
-	
-	
 }
+
+footer{
+	text-align:center;
+}
+
+
+@media screen and (max-width :800px){
+	
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+	width:100%;
+}
+
+#nav ul {
+	margin: 5% 0;
+}
+
+#nav ul li a {
+	-webkit-user-select: none;
+	font-size: 1em;
+}
+
+#nav ul li {
+	float: left;
+	margin: 5% 0;
+	}
+	
+img{
+	max-width:100%%
+
+}
+}
+
+@media screen and (max-width :480px){
+	
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+	width:100%;
+
+}
+
+
+
+#nav ul li a {
+	-webkit-user-select: none;
+	font-size: .75em;
+}
+
+#nav ul li {
+	float: left;
+	margin: 0 auto;
+	}
+	
+img{
+	width:100%;
+	margin-left:30%;
+
+}
+}
+
+
+

@@ -2,37 +2,7 @@
 /* CSS Document */
 
 
-/*Colour pallette
-fear of rejection
-341139
-HEX
-52,17,57 RGB
 
-into insurmountable
-3C3251
-HEX
-60,50,81
-RGB
-
-as breath swells
-359668
-HEX
-53,150,104
-RGB
-
-and trembling of hands
-A8D46F
-HEX
-168,212,111
-RGB
-
-a chatter of teeth
-FFED90
-HEX
-255,237,144
-RGB
-
-inside this moment found on colourlovers.com*/
 
 /*Font*/
 
@@ -121,6 +91,7 @@ img{
 	}
 
 img {
+	width:70%;
 	margin: 10px 10px;
 	border:black;
 	padding: 30px 30px;
@@ -131,7 +102,7 @@ h1, h3 {
 	}
 h1 {
 	font-family: 'Quicksand', sans-serif;
-	font-size:3em;
+	font-size:3.5em;
 	padding: 20px 20px 20px 20px;
 	background: none;
 	display:block;
@@ -147,13 +118,13 @@ li {
   height: 50px;
   line-height: 50px;
   list-style: none;
-	margin: 0 10px 0 10px;
+  margin: 0 10px 0 10px;
   padding: 0 10px 0 0;
   text-align: center;
   width: 150px;
 }
 
-a {
+nav a {
   background: ;
   display: block;
   color: black;
@@ -161,7 +132,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+nav a:hover {
   background: rgba(52,17,57,.9);
   border-radius:50%;
 }
@@ -174,7 +145,43 @@ blockquote {
 body{
 	background: url(../img/tree_bark.png) ;
 }
+.contact a{
+ text-decoration:none;
+ color:white; 
+ position:relative;
+ top:10px;
+ left:15px;
+}
+.contact a:hover{
+ text-decoration:none;
+ color:rgba(52,17,57,.9);	
+}
+.contact li{
+	background: url(../img/Spritemap.png) no-repeat left center;
+	background-position: 0px -192px;
+}
 
-.foo:hover {
-	
+.contact li+li{
+	background: url(../img/Spritemap.png) no-repeat left center;
+	background-position: 0px 0px;
+}
+.contact li+li+li{
+	background: url(../img/Spritemap.png) no-repeat left center;
+	background-position: 0px -256px;
+}
+.contact li:hover{
+	background: url(../img/Spritemap.png) no-repeat left center;
+	background-position: 0px -128px;
+}
+.contact li+li:hover{
+	background: url(../img/Spritemap.png) no-repeat left center;
+	background-position: 0px -64px;
+}
+
+.contact li+li+li:hover{
+	background: url(../img/Spritemap.png) no-repeat left center;
+	background-position: 0px -320px;
+
+footer{
+	text-align:center;
 }
